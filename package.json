@@ -1,5 +1,5 @@
 {
-  "name": "emryui-tailwind-presets",
+  "name": "@emryui/tailwind-preset",
   "version": "0.0.4",
   "description": "Tailwind preset for Emry UI",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emryui/emryui-tailwind-presets.git"
+    "url": "git+https://github.com/emryui/tailwind-preset"
   },
   "keywords": [
     "tailwind",
@@ -17,9 +17,9 @@
   "author": "emryui@proton.me",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emryui/emryui-tailwind-presets/issues"
+    "url": "https://github.com/emryui/tailwind-preset/issues"
   },
-  "homepage": "https://github.com/emryui/emryui-tailwind-presets#readme",
+  "homepage": "https://github.com/emryui/tailwind-preset#readme",
   "devDependencies": {
     "tailwindcss": "^3.2.1"
   }
