@@ -22,5 +22,8 @@
   "homepage": "https://github.com/emryui/tailwind-preset#readme",
   "devDependencies": {
     "tailwindcss": "^3.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
