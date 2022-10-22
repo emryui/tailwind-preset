@@ -65,9 +65,6 @@ module.exports = {
         theme("colors.primary.600"),
       ],
     }),
-    variants: {
-      gradients: ["responsive", "hover"],
-    },
     container: {
       sm: "40rem",
       md: "48rem",
