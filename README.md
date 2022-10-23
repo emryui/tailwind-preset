@@ -30,3 +30,4 @@ module.exports = {
 - [x] Typography
 - [x] Gradients (primary & gray)
 - [x] Container (sm, md, lg, xl)
+- [x] Drop shadows (sm, md, lg, xl, 2xl, 3xl)
