@@ -5,7 +5,6 @@
 <div align="center">
   <h1>Emry UI - Tailwind Preset</h1>
   <p><b>Supercharge your frontend development</b></p>
-  <p>Tailwind preset for Emry UI</p>
 </div>
 
 ### Installation
