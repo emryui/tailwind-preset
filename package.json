@@ -7,7 +7,6 @@
     "build": "rollup --config",
     "test": "echo \"No test specified\""
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emryui/tailwind-preset"
