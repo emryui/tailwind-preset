@@ -6,67 +6,43 @@ module.exports = {
   theme: {
     backgroundImage: (theme) => ({
       // Gray
-      "gray-600-500-90deg": [
-        "90deg",
-        theme("colors.gray.600"),
-        theme("colors.gray.500"),
-      ],
-      "gray-700-600-45deg": [
-        "45deg",
-        theme("colors.gray.700"),
-        theme("colors.gray.600"),
-      ],
-      "gray-800-600-45deg": [
-        "45deg",
-        theme("colors.gray.800"),
-        theme("colors.gray.600"),
-      ],
-      "gray-800-600-90deg": [
-        "90deg",
-        theme("colors.gray.800"),
-        theme("colors.gray.600"),
-      ],
-      "gray-800-700-25deg": [
-        "25.6deg",
-        theme("colors.gray.800"),
-        theme("colors.gray.700"),
-      ],
-      "gray-900-600-45deg": [
-        "45deg",
-        theme("colors.primary.900"),
-        theme("colors.primary.600"),
-      ],
+      "gradient-90deg-gray-600-500": `linear-gradient(90deg, ${theme(
+        "colors.gray.600"
+      )}, ${theme("colors.gray.500")})`,
+      "gradient-45deg-gray-700-600": `linear-gradient(45deg, ${theme(
+        "colors.gray.700"
+      )}, ${theme("colors.gray.600")})`,
+      "gradient-45deg-gray-800-600": `linear-gradient(45deg, ${theme(
+        "colors.gray.800"
+      )}, ${theme("colors.gray.600")})`,
+      "gradient-90deg-gray-800-600": `linear-gradient(90deg, ${theme(
+        "colors.gray.800"
+      )}, ${theme("colors.gray.600")})`,
+      "gradient-25deg-gray-800-700": `linear-gradient(25.6deg, ${theme(
+        "colors.gray.800"
+      )}, ${theme("colors.gray.700")})`,
+      "gradient-45deg-gray-900-600": `linear-gradient(45deg, ${theme(
+        "colors.gray.900"
+      )}, ${theme("colors.gray.600")})`,
       // Primary
-      "primary-600-500-90deg": [
-        "90deg",
-        theme("colors.primary.600"),
-        theme("colors.primary.500"),
-      ],
-      "primary-700-600-45deg": [
-        "45deg",
-        theme("colors.primary.700"),
-        theme("colors.primary.600"),
-      ],
-      "primary-800-600-45deg": [
-        "45deg",
-        theme("colors.primary.800"),
-        theme("colors.primary.600"),
-      ],
-      "primary-800-600-90deg": [
-        "90deg",
-        theme("colors.primary.800"),
-        theme("colors.primary.600"),
-      ],
-      "primary-800-700-25deg": [
-        "25.6deg",
-        theme("colors.primary.800"),
-        theme("colors.primary.700"),
-      ],
-      "primary-900-600-45deg": [
-        "45deg",
-        theme("colors.primary.900"),
-        theme("colors.primary.600"),
-      ],
+      "gradient-90deg-primary-600-500": `linear-gradient(90deg, ${theme(
+        "colors.primary.600"
+      )}, ${theme("colors.primary.500")})`,
+      "gradient-45deg-primary-700-600": `linear-gradient(45deg, ${theme(
+        "colors.primary.700"
+      )}, ${theme("colors.primary.600")})`,
+      "gradient-45deg-primary-800-600": `linear-gradient(45deg, ${theme(
+        "colors.primary.800"
+      )}, ${theme("colors.primary.600")})`,
+      "gradient-90deg-primary-800-600": `linear-gradient(90deg, ${theme(
+        "colors.primary.800"
+      )}, ${theme("colors.primary.600")})`,
+      "gradient-25deg-primary-800-700": `linear-gradient(25.6deg, ${theme(
+        "colors.primary.800"
+      )}, ${theme("colors.primary.700")})`,
+      "gradient-45deg-primary-900-600": `linear-gradient(45deg, ${theme(
+        "colors.primary.900"
+      )}, ${theme("colors.primary.600")})`,
     }),
     container: {
       sm: "40rem",
