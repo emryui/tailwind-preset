@@ -4,12 +4,12 @@
   "description": "Tailwind preset for Emry UI",
   "main": "index.js",
   "scripts": {
-    "build": "rollup --config",
+    "build": "rollup --config --bundleConfigAsCjs",
     "test": "echo \"No test specified\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emryui/tailwind-preset"
+    "url": "https://github.com/emryui/tailwind-preset"
   },
   "keywords": [
     "tailwind",
