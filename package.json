@@ -1,6 +1,6 @@
 {
   "name": "@emryui/tailwind-preset",
-  "version": "1.3.2",
+  "version": "1.4.0",
   "description": "Tailwind preset for Emry UI",
   "main": "index.js",
   "scripts": {
